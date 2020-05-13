@@ -17,7 +17,7 @@ import java.util.Comparator;
  * @param <T> set contents type
  */
 public abstract class SortedSet<T> extends AbstractSet<T> {
-    // private final Map<???, ???> contents; TODO decide Map and key/value types. "???" is used just as an example
+    // private final Map<???, ???> contents; TODO decide Map implementation and key/value types. "???" is used just as an example
     public static <T> SortedSet<T> create() {
         throw new UnsupportedOperationException(); // TODO implement
     }
